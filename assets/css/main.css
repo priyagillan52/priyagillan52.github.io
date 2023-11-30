@@ -3910,3 +3910,19 @@ input, select, textarea {
 			}
 
 		}
+	
+		.inner.flex-container {
+			display: flex;
+			align-items: center; /* Aligns items vertically in the center */
+			justify-content: center; /* Centers items horizontally */
+			gap: 20px; /* Optional: Adds space between the image and text */
+		}
+		
+		.flex-image {
+			flex: 1; /* Adjust the ratio between image and content */
+		}
+		
+		.flex-content {
+			flex: 2; /* Adjust the ratio between image and content */
+			padding: 0 15px; /* Optional: Adds some padding around the text */
+		}
